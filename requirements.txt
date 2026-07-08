@@ -1,3 +1,0 @@
-# Only needed for extract_tables.py (PDF -> JSON extraction).
-# The converter (revoice.py) and inspect_style.py use the standard library only.
-pdfplumber>=0.11
