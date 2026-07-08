@@ -1,0 +1,4 @@
+{
+ "_convention": "OR-700 melodic voice address (MSB-LSB-PC, 0-based MIDI) -> CVP-805 voice address. Applied ONLY to non-drum channels; rewrites Bank Select MSB(CC0)+LSB(CC32) and Program Change bytes. Voices not listed pass through unchanged (rely on CVP-805 GM fallback). GM-fallback voices kept on purpose: Nay/Kawala->Shakuhachi, Sorna/Mizmar/Argoul->Shanai, Watariyat->Strings, Santoor->Dulcimer, Kamanche->Violin, Tar->Banjo, Kanoun->Koto, Saz/Bouzouki->Steel Guitar.",
+ "0-113-105": "0-98-105"
+}
